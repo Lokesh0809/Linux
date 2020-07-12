@@ -1,0 +1,14 @@
+# Linux various commands we use
+1. alias= To create a short name of a long command.
+2. arch= Show system Architecture(32 bit or 64 bit).
+3. at(like chrowntab) -> Schedule ad-hoc jobs.
+4. awk= Shows the output of the field or file.
+   Eg: ~]$ ls –ltr | awk ‘{print $1}’   (Showing first colum)
+5. bash= shell
+   Eg: ~]$ echo shell
+   (shell running in?/bin/bash)
+6. bc= calculator
+   [~]$ bc
+   Just press ctrl+c
+7. bg= Run a process in the background
+8. cal= Calender
