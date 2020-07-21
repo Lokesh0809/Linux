@@ -1,14 +1,33 @@
-# Linux various commands we use
+Linux various commands we use
 1. alias= To create a short name of a long command.
 2. arch= Show system Architecture(32 bit or 64 bit).
 3. at(like chrowntab) -> Schedule ad-hoc jobs.
 4. awk= Shows the output of the field or file.
-   Eg: ~]$ ls �ltr | awk �{print $1}�   (Showing first colum)
-5. bash= shell
+   Eg: ~]$ ls –ltr | awk ‘{print $1}’   (Showing first colum)
+5. bash= shell.
    Eg: ~]$ echo shell
    (shell running in?/bin/bash)
-6. bc= calculator
+6. bc= calculator.
    [~]$ bc
    Just press ctrl+c
-7. bg= Run a process in the background
-8. cal= Calender
+7. bg= Run a process in the background.
+8. cal= Calender.
+9. case= Script to provide options.
+10. cat filename= we can see content in the file.
+11. cd= change directory.
+12. chage= change a user attributes(eg: password)
+13. chgrp= change a file group ownership.
+14. chmod= change a file permissions.
+15. chown= change a file ownership.
+16. chronyc= command for chronyd(newer version of NTP)
+17. clear= clear the screen.
+18. cmp= compare to files byte by byte.
+19. Command –help= quick help on a command.
+20. cp= copy files or directories.
+21. createrepo= create local repository.
+22. crontab= schedule job.
+23. cut= cut characters or fields.
+    Eg: ~]$ ls –ltr | cut –c
+24. date= display date and time.
+25. dd= convert or copy a file.
+26. df= file system in disk space usage.
